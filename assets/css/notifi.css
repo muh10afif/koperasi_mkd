@@ -1,0 +1,131 @@
+.polite {
+    position: absolute;
+    min-height: 200px;
+    z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999;
+    left: 78%;
+    right: 0;
+    float: right;
+}
+
+.toast {
+    position: absolute;
+    top: 100;
+    background-color: #307fd0e3;
+    padding: 10px;
+    color: white;
+
+}
+
+.toast-header {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+@media (max-width: 575.98px) {
+    .polite {
+        position: absolute;
+        min-height: 200px;
+        z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999;
+        left: 30%;
+        right: 0;
+        float: right;
+    }
+
+    .toast {
+        position: absolute;
+        top: 20;
+        background-color: #307fd0e3;
+        padding: 10px;
+
+
+    }
+
+    .toast-header {
+        font-weight: bold;
+        border-bottom: 2px solid white;
+    }
+
+}
+
+
+@media (max-width: 767.98px) {
+    .polite {
+        position: absolute;
+        min-height: 200px;
+        z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999;
+        left: 55%;
+        right: 0;
+        float: right;
+    }
+
+    .toast {
+        position: absolute;
+        top: 20;
+        background-color: #307fd0e3;
+        padding: 10px;
+
+
+    }
+
+    .toast-header {
+        font-weight: bold;
+        border-bottom: 2px solid white;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .polite {
+        position: absolute;
+        min-height: 200px;
+        z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999;
+        left: 55%;
+        right: 0;
+        float: right;
+    }
+
+    .toast {
+        position: absolute;
+        top: 10;
+        background-color: #307fd0e3;
+        padding: 10px;
+
+
+    }
+
+    .toast-header {
+        font-weight: bold;
+        border-bottom: 2px solid white;
+    }
+}
+
+@media (max-width: 955.98px) {
+    .polite {
+        position: absolute;
+        min-height: 200px;
+        z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999;
+        left: 55%;
+        right: 0;
+        float: right;
+    }
+
+    .toast {
+        position: absolute;
+        top: 20;
+        background-color: #307fd0e3;
+        padding: 10px;
+
+
+    }
+
+    .toast-header {
+        font-weight: bold;
+        border-bottom: 2px solid white;
+    }
+}
+
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}
+
+...

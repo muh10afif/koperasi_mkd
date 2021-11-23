@@ -1,0 +1,69 @@
+body {
+	background-image: url("../image/bg---cms-1.png");
+	background-size: 100% 100%;
+	/* background-size: cover; */
+}
+
+.card {
+	margin-top: 80%;
+	width: 100%;
+}
+
+@media (max-width: 720px) {
+	body {
+		background-image: url("../image/mui-responsive.png");
+		background-size: 100% 100%;
+
+		/* background-size: cover; */
+	}
+
+	.card {
+		margin-top: 80%;
+		width: 100%;
+		/* margin-left:; */
+
+	}
+}
+
+@media (min-width: 1024px) {
+	body {
+		background-image: url("../image/bg---cms-1.png");
+		background-size: 100% 100%;
+
+		/* background-size: cover; */
+	}
+
+	.card {
+		margin-top: 100%;
+		width: 150%;
+		margin-left: -26%;
+
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	body {
+		background-image: url("../image/bg---cms-1.png");
+		background-size: 100% 100%;
+	}
+
+	.card {
+		margin-top: 100%;
+		width: 150%;
+		margin-left: -26%;
+	}
+}
+
+@media (min-width: 1300px) {
+	body {
+		background-image: url("../image/bg---cms-1.png");
+		background-size: 100% 100%;
+	}
+
+	.card {
+		margin-top: 100%;
+		width: 200%;
+		margin-left: -50%;
+	}
+}

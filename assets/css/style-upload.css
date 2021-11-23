@@ -1,0 +1,43 @@
+#form-upload-file {
+   display: none;
+}
+
+#box-file {
+   background-color: lightgray;
+   /* border: 2px dashed black; */
+   height: 160px;
+   cursor: pointer;
+}
+
+.logo-add {
+   color: white;
+   font-size: 50px;
+   /* margin-top: 2%; */
+   line-height: 125px;
+}
+
+.keterangan-label {
+   color: grey;
+}
+
+.form-error {
+   color: red;
+}
+
+.form-information {
+   color: grey;
+}
+
+#loading {
+   /* background-color:red; */
+   /* position:absolute; */
+   height: 100px;
+   width: 100px;
+}
+
+#div-box {
+   overflow: hidden;
+   background-color: lightgray;
+   cursor: pointer;
+   border: 2px dashed black;
+}

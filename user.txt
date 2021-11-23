@@ -1,0 +1,9 @@
+manager:
+	username:mulyadi
+	password:mulyadi
+
+pegawai
+1. username:krisna
+	password:krisna
+2. username:keysha
+	password:keysha

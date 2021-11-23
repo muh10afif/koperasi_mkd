@@ -1,0 +1,52 @@
+.box-upload-gambar {
+    position: relative;
+    background-color: lightgrey;
+    border: 3px dashed grey;
+    border-radius: 5px;
+    height: 200px;
+    cursor: pointer;
+
+}
+
+/* icon tambah gambar */
+.tambah-box {
+    position: relative;
+    margin: auto;
+    line-height: 200px;
+    color: grey;
+    font-size: 80px;
+    text-align: center;
+}
+
+.box-upload-gambar:hover,
+.tambah-box:hover {
+    background-color: #b9b0b0;
+}
+
+#error-upload,
+.form-error {
+    color: red;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+/* media screen */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    ...
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    ...
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    ...
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    ...
+}

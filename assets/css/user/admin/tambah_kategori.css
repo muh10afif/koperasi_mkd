@@ -1,0 +1,16 @@
+/* #form-upload-foto {
+    display: none;
+} */
+
+#box-gambar {
+    background-color: lightgray;
+    border: 2px dashed black;
+    height: 140px;
+    cursor: pointer;
+}
+
+.logo-add{
+   color:white;
+   font-size: 40px;
+   margin-top: 18%;
+}
